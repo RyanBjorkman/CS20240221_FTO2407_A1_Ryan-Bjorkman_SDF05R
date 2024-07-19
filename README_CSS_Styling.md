@@ -6,3 +6,10 @@
 - I then set the key frames and added created the animation (pulse) using a box-shadow. I like the idea that this would encourage the user to click the button.
 
 - Finally applying the animation (pulse) with a 1,5s animation-duration with an iteration of infinite.
+
+#btn-2
+- For btn-2 I added a hover function to change color font weight and size.
+- active function to change color and transform.
+
+#btn-3
+-btn-3 I used various features from the first 2 buttons and then applied a different border animation as well as on the hover and active functions.
