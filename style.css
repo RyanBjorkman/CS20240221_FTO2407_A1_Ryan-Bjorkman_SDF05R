@@ -62,9 +62,12 @@ p {
 }
 
 .btn-1:active {
-    background-color:;
-    color: bisque;
+    background-color:#FFDB58;
+    color: rgb(157, 90, 7);
     transform: scale(0.98); 
+    font-weight: bolder;
+    font-size: 0.9em;
+    
 }
 
 @keyframes pulse {
@@ -75,4 +78,59 @@ p {
 
 .btn-1 {
     animation: pulse 1.5s infinite;
+}
+
+/* btn-2 styling */
+
+.btn-2:hover {
+    background-color: cadetblue;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 0.9em;
+    animation: none;
+}
+
+.btn-2:active {
+    background-color:teal;
+    color: aliceblue;
+    transform: scale(0.98); 
+}
+
+@keyframes multicolor {
+0% {color:aliceblue; background:brown}    
+25% {color:aliceblue; background:darkolivegreen} 
+50% {color:aliceblue; background:darkslategrey } 
+100% {color:aliceblue; background:saddlebrown } 
+}
+
+.btn-2 {
+    animation: multicolor 1s ease 0s infinite alternate both;
+}
+
+/* btn-3 styling */
+
+.btn-3:hover {
+    background-color:darkviolet; 
+    color:bisque; 
+    border: darkcyan;
+    border-radius: 2px;
+    animation:none;
+}
+
+.btn-3:active {
+    background-color:aqua;
+    color: rgb(41, 6, 181);
+    transform: scale(0.98); 
+    font-weight: bolder;
+    font-size: 0.9em;
+}
+
+@keyframes redtopink {
+    0% {color: bisque; background-color:crimson; border-color: darkblue;}
+    70% {color: bisque; background-color:magenta; border-color:brown}
+    100% {color: bisque; background-color:lightcoral;border-color:darkorange}
+}
+
+.btn-3 {
+    animation: redtopink 1s ease 0s infinite alternate both;
 }
